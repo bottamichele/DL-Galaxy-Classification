@@ -168,9 +168,9 @@ def train_model(model, model_name, epochs=50, batch_size=64, learning_rate=10**-
 # ========================================
 
 if __name__ == "__main__":
-    TRAIN_XCEPTION_MODEL = False
+    TRAIN_XCEPTION_MODEL = True
     TRAIN_VGG16_MODEL = False
-    TRAIN_RESNET50_MODEL = True
+    TRAIN_RESNET50_MODEL = False
 
     if TRAIN_XCEPTION_MODEL and not TRAIN_VGG16_MODEL and not TRAIN_RESNET50_MODEL:
         #Train a Xception's model
