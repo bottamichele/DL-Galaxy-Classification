@@ -13,7 +13,7 @@ The following libraries used for this project are:
 - [galaxy-datasets](https://pypi.org/project/galaxy-datasets/) v.0.0.21
 - [torchsummary](https://github.com/sksq96/pytorch-summary) v.1.5.1
 
-## Requirements project
+## Requirements
 Before you use this project, you need to do the following steps:
 1. you need to download libraries required from project to be run and you can find them on section [Libraries](#libs).
    It shouldn't be needed to download same version of libraries and it don't need to download "torchsummary" library because
