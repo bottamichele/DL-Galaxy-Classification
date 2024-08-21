@@ -13,7 +13,7 @@ The following libraries used for this project are:
 - [galaxy-datasets](https://pypi.org/project/galaxy-datasets/) v.0.0.21
 - [torchsummary](https://github.com/sksq96/pytorch-summary) v.1.5.1
 
-## Requirements
+## Requirements project
 Before you use this project, you need to do the following steps:
 1. you need to download libraries required from project to be run and you can find them on section [Libraries](#libs).
    It shouldn't be needed to download same version of libraries and it don't need to download "torchsummary" library because
@@ -22,6 +22,7 @@ Before you use this project, you need to do the following steps:
    and it is made up from a csv file called [gz2_hart16.csv](https://gz2hart.s3.amazonaws.com/gz2_hart16.csv.gz)
    and galaxy images that you can downlaod running [gz2_dataset.py](https://github.com/bottamichele/DL-Galaxy-Classification/blob/main/gz2_dataset.py) setting DOWNLOAD_NEEDED to True.
    You can find Galaxy Zoo 2's dataset on [Galaxy Zoo Data](https://data.galaxyzoo.org/).
-3. when you downloaded the dataset, put gz2_hart16.csv on "gz2_dataset" folder. 
-4. when gz2_hart16.csv and galaxy images are on "gz2_dataset" folder, now you need to run [dataset.py](https://github.com/bottamichele/DL-Galaxy-Classification/blob/main/dataset.py)
-   to create a dataset with clean sample togheter a training, validation and test set.
+3. when you downloaded the dataset, put gz2_hart16.csv on "gz2_dataset" folder located at main folder project. 
+4. when gz2_hart16.csv and galaxy images are on "gz2_dataset" folder and if you want to do training and testing of a model,
+   you need to run [dataset.py](https://github.com/bottamichele/DL-Galaxy-Classification/blob/main/dataset.py)
+   to create new dataset with clean sample and with training, validation and test set togheter.
