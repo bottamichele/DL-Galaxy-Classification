@@ -18,7 +18,7 @@ Before you use this project, you need to do the following steps to setup the pro
 1. you need to download libraries required from project to be run and you can find them on section [Libraries](#libs).
    It shouldn't be needed to download same version of libraries and it don't need to download "torchsummary" library because
    the goal of this library is to display summary information of a neural networks (such as its architecture).
-2. download the project's soroce code and extract it.
+2. download the project's source code and extract it.
 3. the dataset isn't included and you need to download it. The dataset used on this project is called [Galaxy Zoo 2](https://arxiv.org/abs/1308.3496v2)
    and it is made up from a csv file called [gz2_hart16.csv](https://gz2hart.s3.amazonaws.com/gz2_hart16.csv.gz)
    and galaxy images that you can downlaod running [gz2_dataset.py](https://github.com/bottamichele/DL-Galaxy-Classification/blob/main/gz2_dataset.py) setting DOWNLOAD_NEEDED to True.
