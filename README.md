@@ -1,6 +1,7 @@
 # DL-Galaxy-Classification
 
-## About project
+## About the project
+This is a Deep Learning project that aims to classify galaxies based on own morphology properties with use of Xception neural network.
 
 ## Libraries <a name="libs"></a>
 The following libraries used for this project are:
